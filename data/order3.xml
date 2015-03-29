@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE order SYSTEM 'bonanza.dtd'>
+
+<order type="takeout">
+    <customer>Stefan</customer>
+    <burger>
+        <patty type="beef" />
+        <cheeses top="jack" />
+        <topping type="dill" />
+        <topping type="tomato" />
+        <sauce type="ketchup" />
+        <instructions>Please cook beef until it is well done.</instructions>
+    </burger>
+    <burger>
+        <patty type="pork" />
+        <cheeses top="swiss" bottom="swiss" />
+        <topping type="tomato" />
+    </burger>
+</order>
